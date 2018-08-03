@@ -1,1 +1,1 @@
-node processingAll.js
+node All.js

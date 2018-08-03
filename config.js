@@ -2,17 +2,17 @@ var Jimp = require('jimp');
 
 var config = {
 	
-	//dbUrl: "",	//cloud
-	dbUrl: "mongodb://localhost:27017/mongoose_basics",	//local
 	
-	targetWidth: 200,					
+	dbUrl: "",
+	
+	targetWidth: 150,					
 	targetHeight: Jimp.AUTO,			// Jimp.AUTO
 	targetQuality: 60,					// set JPEG quality
-    targetGreyscale: true,
+    targetGreyscale: false,
 	inputPath: "./input",
 	outputPath: "./output",
 	
-	shedule: "* * * * *"				//
+	shedule: "* * */6 * *"				// After start AND Every 2 hours =>00:00:00, 02:00:00, 04:00:00
 };
 
 module.exports = config;
