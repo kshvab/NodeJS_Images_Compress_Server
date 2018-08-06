@@ -21,4 +21,7 @@ var config = {
   shedule: "* * */6 * *"
 }
 ```
+![sample interface in the console](/forReadme/1.png)
+
+![sample interface in the console](/forReadme/2.png)
 ## Enjoy!
